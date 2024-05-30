@@ -1,11 +1,12 @@
 import './App.css'
+import BlogList from './compontens/BlogList/BlogList'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
  <home>
 <h1>320.H1 fashion blog</h1>
+<BlogList/>
  </home>
   )
 }
